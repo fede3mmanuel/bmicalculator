@@ -198,6 +198,15 @@
                 android:textColor="@android:color/holo_green_dark"
                 android:textSize="40sp"
                 android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(normal range is 18.5 - 24.9)"
+                android:textAlignment="center"
+                android:textColor="@color/test_hint"
+                android:textSize="20sp" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
