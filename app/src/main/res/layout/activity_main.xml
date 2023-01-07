@@ -144,12 +144,14 @@
 
     <Button
         android:id="@+id/btnCalculate"
-        android:layout_width="309dp"
-        android:layout_height="98dp"
+        android:layout_width="286dp"
+        android:layout_height="80dp"
         android:backgroundTint="@color/button_background"
+        android:elevation="20dp"
         android:text="Calculate"
         android:textSize="34sp"
         android:textStyle="bold"
+        app:cornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.431"
