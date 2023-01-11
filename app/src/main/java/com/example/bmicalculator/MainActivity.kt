@@ -35,5 +35,8 @@ class MainActivity : AppCompatActivity() {
         resultIndex.text = bmi.toString()
         info.text = "(Normal range is 18.5 - 24.9)"
 
+        var resultTest = ""
+        var color = 0
+
     }
 }
